@@ -1,0 +1,164 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 70px;
+}
+
+.nav-left{
+  display: inline-block;
+  padding-top: 23px;
+}
+
+.nav-right{
+  display: inline-block;
+}
+
+.nav-right li:first-child{
+  padding-left: 895px;
+  padding-right: 10px;
+}
+
+li:first-child {
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.profile-img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right:30px;
+}
+
+.menu-icon{
+  position: absolute;
+  top: 19px;
+  right:109px;
+}
+
+.bell-icon{
+  position: absolute;
+  top: 19px;
+  right:69px;
+}
+
+.nav-text {
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #1c1b1b;
+  opacity: 0.85;
+}
+
+.icon {
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+}
+
+#homepage-logo {
+  height: 216px;
+  width: 324px;
+  position: relative;
+  top: 60px;
+  left: 480px;
+}
+
+#search {
+  font-size: 15px;
+  font-family: arial;
+  display: block;
+  position: relative;
+  height: 37px;
+  width: 570px;
+  top:28px;
+  left:355px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.normal {
+  width: 128px;
+}
+
+.lucky {
+  width: 140px;
+}
+
+.submit-search {
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  border-style: none;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top:58px;
+  left: 500px;
+  height:36px;
+  color: #757575;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.submit-search:hover {
+  border: 1px solid #bfbfbf;
+  color: black;
+}
+
+#temp-news {
+  position: relative;
+  top: 80px;
+  left: 500px;
+  font-family: arial;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer-text {
+  color: #666;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+#footer-left {
+  display: inline-block;
+  padding-top: 12px;
+}
+
+#footer-left li:first-child{
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+#footer-right {
+  display: inline-block;
+}
+
+#footer-right li:first-child {
+  padding-left: 880px;
+}
+
+#footer-right li {
+  padding-right: 22px;
+}
