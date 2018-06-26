@@ -1,3 +1,7 @@
+body {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -120,8 +124,9 @@ li {
 }
 
 #temp-news {
-  position: relative;
-  top: 80px;
+  display: inline;
+  position: absolute;
+  top: 450px;
   left: 500px;
   font-family: arial;
 }
