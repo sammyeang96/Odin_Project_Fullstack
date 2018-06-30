@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+  width: 1280px;
 }
 
 a {
@@ -11,7 +11,7 @@ a:hover {
 }
 
 .nav-bar {
-  width: 100%;
+  width: 1280px;
   height: 70px;
 }
 
@@ -22,11 +22,9 @@ a:hover {
 
 .nav-right{
   display: inline-block;
-}
-
-.nav-right li:first-child{
-  padding-left: 895px;
-  padding-right: 10px;
+  position: absolute;
+  top: 23px;
+  right: 145px;
 }
 
 li:first-child {
@@ -36,7 +34,7 @@ li:first-child {
 
 li {
   display: inline-block;
-  padding-right: 15px;
+  padding-right: 18px;
 }
 
 .profile-img {
@@ -132,7 +130,7 @@ li {
 }
 
 footer {
-  width: 100%;
+  width: 1280px;
   height: 40px;
   background-color: #f2f2f2;
   position: absolute;
@@ -158,10 +156,9 @@ footer {
 
 #footer-right {
   display: inline-block;
-}
-
-#footer-right li:first-child {
-  padding-left: 880px;
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
 }
 
 #footer-right li {
