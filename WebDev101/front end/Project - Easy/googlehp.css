@@ -1,5 +1,5 @@
 #container {
-  width: 950px;
+  width: 1280px;
 }
 
 a {
@@ -11,8 +11,10 @@ a:hover {
 }
 
 .nav-bar {
-  width: 100%;
+  width: 1280px;
   height: 70px;
+  position: absolute;
+  top: 0px;
 }
 
 .nav-left{
@@ -38,6 +40,7 @@ li {
 }
 
 .profile-img {
+  display: inline-block;
   height: 32px;
   width: 32px;
   border-radius: 50%;
@@ -47,12 +50,14 @@ li {
 }
 
 .menu-icon{
+  display: inline-block;
   position: absolute;
   top: 19px;
   right:109px;
 }
 
 .bell-icon{
+  display: inline-block;
   position: absolute;
   top: 19px;
   right:69px;
@@ -71,23 +76,25 @@ li {
   border-radius: 50%;
 }
 
+.center {
+  display: block;
+  text-align: center;
+}
+
 #homepage-logo {
   height: 216px;
   width: 324px;
   position: relative;
-  top: 60px;
-  left: 480px;
+  top: 130px;
 }
 
-#search {
+.search {
   font-size: 15px;
   font-family: arial;
-  display: block;
   position: relative;
   height: 37px;
   width: 570px;
-  top:28px;
-  left:355px;
+  top:98px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 }
 
@@ -107,8 +114,7 @@ li {
   text-align: center;
   display: inline-block;
   position: relative;
-  top:58px;
-  left: 500px;
+  top:128px;
   height:36px;
   color: #757575;
   font-family: arial,sans-serif;
@@ -121,16 +127,14 @@ li {
   color: black;
 }
 
-#temp-news {
-  display: inline;
-  position: absolute;
-  top: 450px;
-  left: 500px;
+.temp-news {
+  position: relative;
+  top: 150px;
   font-family: arial;
 }
 
 footer {
-  width: 100%;
+  width: 1280px;
   height: 40px;
   background-color: #f2f2f2;
   position: absolute;
